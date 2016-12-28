@@ -1,14 +1,12 @@
 ﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Windows.Input;
-using multimediachooser.Annotations;
+using ReactiveUI;
 using Xamarin.Forms;
 
 namespace multimediachooser
 {
-    public class MainPageViewModel : INotifyPropertyChanged
+    public class MainPageViewModel : ReactiveObject
     {
         public MainPageViewModel()
         {
@@ -30,20 +28,7 @@ namespace multimediachooser
         public ObservableCollection<ImageSource> ImageSources
         {
             get { return _imageSources ?? (_imageSources = new ObservableCollection<ImageSource>()); }
-            set
-            {
-                _imageSources = value;
-                OnPropertyChanged(nameof(ImageSources));
-            }
-        }
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            set { this.RaiseAndSetIfChanged(ref _imageSources, value); }
         }
     }
 }

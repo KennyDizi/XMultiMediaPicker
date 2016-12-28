@@ -26,6 +26,7 @@ namespace multimediachooser.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Splat.Resource.String.library_name = global::multimediachooser.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::multimediachooser.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3036,8 +3037,8 @@ namespace multimediachooser.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080026
-			public const int ApplicationName = 2131230758;
+			// aapt resource value: 0x7f080027
+			public const int ApplicationName = 2131230759;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;
@@ -3096,47 +3097,50 @@ namespace multimediachooser.Droid
 			// aapt resource value: 0x7f080021
 			public const int abc_toolbar_collapse_description = 2131230753;
 			
-			// aapt resource value: 0x7f080036
-			public const int app_name = 2131230774;
+			// aapt resource value: 0x7f080037
+			public const int app_name = 2131230775;
 			
 			// aapt resource value: 0x7f080023
 			public const int appbar_scrolling_view_behavior = 2131230755;
 			
-			// aapt resource value: 0x7f080028
-			public const int bomb_dialog_title = 2131230760;
+			// aapt resource value: 0x7f080029
+			public const int bomb_dialog_title = 2131230761;
 			
 			// aapt resource value: 0x7f080024
 			public const int bottom_sheet_behavior = 2131230756;
 			
-			// aapt resource value: 0x7f080035
-			public const int btn_ok = 2131230773;
+			// aapt resource value: 0x7f080036
+			public const int btn_ok = 2131230774;
 			
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
 			
-			// aapt resource value: 0x7f08002f
-			public const int dialog_cancel = 2131230767;
-			
-			// aapt resource value: 0x7f080031
-			public const int dialog_date = 2131230769;
-			
-			// aapt resource value: 0x7f08002d
-			public const int dialog_main_screen = 2131230765;
+			// aapt resource value: 0x7f080030
+			public const int dialog_cancel = 2131230768;
 			
 			// aapt resource value: 0x7f080032
-			public const int dialog_number = 2131230770;
+			public const int dialog_date = 2131230770;
 			
 			// aapt resource value: 0x7f08002e
-			public const int dialog_ok = 2131230766;
+			public const int dialog_main_screen = 2131230766;
 			
-			// aapt resource value: 0x7f08002c
-			public const int dialog_signal = 2131230764;
+			// aapt resource value: 0x7f080033
+			public const int dialog_number = 2131230771;
 			
-			// aapt resource value: 0x7f080027
-			public const int knigts_dialog_title = 2131230759;
+			// aapt resource value: 0x7f08002f
+			public const int dialog_ok = 2131230767;
 			
-			// aapt resource value: 0x7f080029
-			public const int list_dialog_title = 2131230761;
+			// aapt resource value: 0x7f08002d
+			public const int dialog_signal = 2131230765;
+			
+			// aapt resource value: 0x7f080028
+			public const int knigts_dialog_title = 2131230760;
+			
+			// aapt resource value: 0x7f080026
+			public const int library_name = 2131230758;
+			
+			// aapt resource value: 0x7f08002a
+			public const int list_dialog_title = 2131230762;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
@@ -3183,26 +3187,26 @@ namespace multimediachooser.Droid
 			// aapt resource value: 0x7f08000e
 			public const int mr_user_route_category_name = 2131230734;
 			
-			// aapt resource value: 0x7f08002a
-			public const int multi_choice_dialog_title = 2131230762;
-			
-			// aapt resource value: 0x7f080037
-			public const int multi_choice_media_title = 2131230775;
-			
-			// aapt resource value: 0x7f080030
-			public const int multi_dialog_cancel = 2131230768;
-			
-			// aapt resource value: 0x7f080034
-			public const int no = 2131230772;
-			
 			// aapt resource value: 0x7f08002b
-			public const int number_dialog_title = 2131230763;
+			public const int multi_choice_dialog_title = 2131230763;
+			
+			// aapt resource value: 0x7f080038
+			public const int multi_choice_media_title = 2131230776;
+			
+			// aapt resource value: 0x7f080031
+			public const int multi_dialog_cancel = 2131230769;
+			
+			// aapt resource value: 0x7f080035
+			public const int no = 2131230773;
+			
+			// aapt resource value: 0x7f08002c
+			public const int number_dialog_title = 2131230764;
 			
 			// aapt resource value: 0x7f080022
 			public const int status_bar_notification_info_overflow = 2131230754;
 			
-			// aapt resource value: 0x7f080033
-			public const int yes = 2131230771;
+			// aapt resource value: 0x7f080034
+			public const int yes = 2131230772;
 			
 			static String()
 			{
