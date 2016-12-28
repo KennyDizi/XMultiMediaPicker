@@ -68,7 +68,14 @@ namespace multimediachooser.iOS
 
         public static ImageSource GetImageSourceFromUIImage(this UIImage uiImage)
         {
-            return uiImage == null ? null : ImageSource.FromStream(() => uiImage.AsJPEG(0.75f).AsStream());
+            try
+            {
+                return uiImage == null ? null : ImageSource.FromStream(() => uiImage.AsPNG().AsStream());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
 
         #endregion
