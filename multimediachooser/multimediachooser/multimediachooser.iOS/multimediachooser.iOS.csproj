@@ -92,7 +92,9 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="MessagingExtensions.cs" />
     <None Include="Entitlements.plist" />
-    <None Include="Info.plist" />
+    <None Include="Info.plist">
+      <SubType>Designer</SubType>
+    </None>
     <Compile Include="MultiMediaChooserPickerImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />

@@ -13,7 +13,7 @@ namespace multimediachooser
         {
             InitializeComponent();
 
-            MainPage = new multimediachooser.MainPage();
+            MainPage = new NavigationPage(new multimediachooser.MainPage());
         }
 
         protected override void OnStart()
