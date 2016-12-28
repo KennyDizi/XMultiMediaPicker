@@ -18,6 +18,7 @@ namespace multimediachooser
         private async void PickPhotoAction()
         {
             var result = await CrossMultiMediaChooserPicker.Current.PickMultiImage();
+            if(result == null) return;
             if(result.Any())
                 ImageSources = new ObservableCollection<ImageSource>(result);
         }
