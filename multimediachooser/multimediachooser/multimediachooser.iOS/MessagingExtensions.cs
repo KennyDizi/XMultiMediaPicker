@@ -75,6 +75,7 @@ namespace multimediachooser.iOS
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                return null;
             }
         }
 
